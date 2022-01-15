@@ -15,7 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SharedExperimental",
-            url: "https://github.com/zbencz3/SharedExperiment/SharedExperimental.zip"
+            url: "https://github.com/zbencz3/SharedExperiment/SharedExperimental.zip",
+            checksum: "cc48edce6dd89cca484095c98485bf7b98ac879d413755c30455402ee46e6008"
         ),
     ]
 )
