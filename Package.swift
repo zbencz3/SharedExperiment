@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SharedExperimental",
-            path: "./SharedExperimental.xcframework"
+            url: "https://github.com/zbencz3/SharedExperiment/SharedExperimental.zip",
         ),
     ]
 )
